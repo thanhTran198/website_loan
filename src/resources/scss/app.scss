@@ -1,0 +1,145 @@
+@import 'variables';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+.header-container {
+    height: 78px;
+    background-color: $color-primary;
+}
+
+.app {
+    height: 78px;
+}
+
+.header, .list_option-item, .footer {
+    color: $color-text-hea-foo;
+}
+
+.header {
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: $width1200;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+}
+
+.list_option {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-left: 50px;
+}
+
+.header-link__option {
+    font-size: 16px;
+}
+
+// footer
+.footer-container {
+    background-color: $color-primary;
+    margin-top: 40px;
+}
+
+.footer {
+    width: $width1200;
+    margin: 0 auto;
+}
+
+.footer-option {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.footer-list__fast, .footer-list__mortgage, .footer-list__pawn, .footer-list__introduce {
+    list-style: none;
+}
+
+.footer-list__fast__option, .footer-list__mortgage__option, .footer-list__pawn__option, .footer-list__introduce__option {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 10px;
+}
+
+.footer-list__fast__option a, .footer-list__mortgage__option a, .footer-list__pawn__option a, .footer-list__introduce__option a {
+    color: $color-text-hea-foo;
+}
+
+.footer-declare {
+    padding: 12px;
+    border-top: 1px solid #fff;
+    text-align: center;
+}
+
+// body - HOME
+.body-home {
+    width: $width1200;
+    margin: 0 auto;
+}
+
+.body-home_head_describe {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.body-home_head_describe__title {
+    font-size: 32px;
+    padding: 20px 0;
+    color: $primary-text;
+}
+
+.body-home_head_option {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.body-home_head_option_item {
+    width: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 124px;
+    text-align: center;
+    cursor: pointer;
+    :hover {
+        color: $color-primary_hover;
+        text-decoration: underline;
+    }
+}
+
+.body-home_head_option__svg {
+    width: 60px;
+    margin-bottom: 8px;
+}
+
+.body-home_head_option__svg path {
+    fill: $color-primary;
+}
+
+.body-home_head_option__title {
+    font-size: 16px;
+}
