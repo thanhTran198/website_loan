@@ -1,8 +1,8 @@
 <div class="body-home">
     <div class="body-home_head">
         <div class="body-home_head_describe">
-            <h3 class="body-home_head_describe__title">Vay tiền nhanh chỉ cần CMND - Top 10 App hỗ trợ vay tiền nhanh tốt nhất</h3>
-            <p>#1 Website So sánh & Đánh giá tài chính: Vay nhanh, Tín chấp – Đề xuất các tổ chức tài chính, ngân hàng được cấp phép. So sánh lãi suất, thời gian vay, điều kiện vay, trả lãi…từ nhiều ngân hàng và công ty tài chính khác nhau. Từ đó tư vấn và dẫn link vay đến các tổ chức cho vay cho khách hàng.</p>
+            <h3 class="body-home_head_describe__title">Vay tiền nhanh chỉ cần CMND - Top những App hỗ trợ vay tiền nhanh tốt nhất</h3>
+            <p>Hiện nay, nhu cầu vay tiền online tại nhà tăng lên nhanh chóng do ảnh hưởng của dịch bệnh và lạm phát giá hàng hóa. Do đó, lượng tìm kiếm về các app, website, dịch vụ,… vay tiền online cũng tăng lên khá nhiều. Và để tránh những trường hợp không vay được hoặc bị lừa đảo, VayTienOnline sẽ gợi ý cho bạn một số phương pháp vay tiền nhanh và uy tín.</p>
             <p>Vay tiền nhanh chỉ cần CMND – App vay tiền nhanh – Hỗ trợ nợ xấu, lãi suất thấp, duyệt hồ sơ vay chỉ 15 phút, giải ngân trong ngày</p>
         </div>
         <ul class="body-home_head_option">
@@ -31,5 +31,66 @@
                 <a href="#" class="body-home_head_option__title">Đăng Ký Mở Thẻ Ngân Hàng</a>
             </li>
         </ul>
+    </div>
+    <div class="body-home_body">
+        <p class="body-home_body_text">Chúng tôi đề xuất các công ty tài chính cho vay tiền nhanh chỉ cần CMND/CCCD dưới đây Nếu bạn đăng ký một nơi mà không được duyệt, hãy đăng ký thêm bên khác nhé.!</p>
+    </div>
+    <div class="loans-option_container">
+        {{#each loans}}
+            <div class="loan-option">
+                <div class="loan-option_overview">
+                    <img class="loan-option_overview-logo" src="{{this.logo}}" alt="{{this.name}}">
+                    <p class="loan-option_overview-title">{{this.title}}</p>
+                    <div class="loan-option_overview-container">
+                        <svg class="loan-option_overview-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M152 0H154.2C186.1 0 215.7 16.91 231.9 44.45L256 85.46L280.1 44.45C296.3 16.91 325.9 0 357.8 0H360C408.6 0 448 39.4 448 88C448 102.4 444.5 115.1 438.4 128H480C497.7 128 512 142.3 512 160V224C512 241.7 497.7 256 480 256H32C14.33 256 0 241.7 0 224V160C0 142.3 14.33 128 32 128H73.6C67.46 115.1 64 102.4 64 88C64 39.4 103.4 0 152 0zM190.5 68.78C182.9 55.91 169.1 48 154.2 48H152C129.9 48 112 65.91 112 88C112 110.1 129.9 128 152 128H225.3L190.5 68.78zM360 48H357.8C342.9 48 329.1 55.91 321.5 68.78L286.7 128H360C382.1 128 400 110.1 400 88C400 65.91 382.1 48 360 48V48zM32 288H224V512H80C53.49 512 32 490.5 32 464V288zM288 512V288H480V464C480 490.5 458.5 512 432 512H288z"/></svg>
+                        <span class="loan-option_overview-advantages">{{this.Advantages}}</span>
+                    </div>
+                    <div class="loan-option_overview-interest-rate">
+                        <div class="body-home_loan-option_amount-loan_container">
+                            <div class="body-home_loan-option_amount-loan_text">Khoản vay</div>
+                            <div class="body-home_loan-option_amount-loan_number">10</div>
+                            <div class="body-home_loan-option_amount-loan_text">Triệu</div>
+                        </div>
+                        <div class="loan-option_overview-interest-rate_sub"></div>
+                        <div class="body-home_loan-option_amount-loan_container">
+                            <div class="body-home_loan-option_amount-loan_text">Lãi suất</div>
+                            <div class="body-home_loan-option_amount-loan_number">{{this.annual_interest_rate}}</div>
+                            <div class="body-home_loan-option_amount-loan_text">% Năm</div>
+                        </div>
+                    </div>
+                    <ul class="body-home_loan-option_condition-list">
+                        {{#each introduce}}
+                            <li class="body-home_loan-option_condition-item">
+                            <img class="body-home_loan-option_condition-img" src="/img/img-home/checked.png" alt="icon checked">
+                            <span class="body-home_loan-option_condition-text">{{this}}</span>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+                <a href="#" class="see-more">Tìm hiểu thêm</a>
+                <div class="loan-option_btn">
+                    ĐĂNG KÝ VAY {{this.name}}
+                </div>
+            </div>
+        {{/each}}
+    </div>
+    <div>
+        <h2>Cách đăng ký vay tiền online đơn giản nhất ai cũng có thể đăng ký được</h2>
+        <p><b><span style="font-weight: 400;"><span style="color: #008044;">●</span> </span>Bước 1:</b><span style="font-weight: 400;"> Điền đầy đủ thông tin gồm tên, ngày sinh, số CMND, điện thoại, nghề nghiệp, mức lương, số tiền và thời hạn vay.</span></p>
+        <p><b><span style="font-weight: 400;"><span style="color: #008044;">●</span> </span>Bước 2:</b><span style="font-weight: 400;"> Chụp hình các giấy tờ theo quy định và gửi duyệt hồ sơ.</span></p>
+        <p><b><span style="font-weight: 400;"><span style="color: #008044;">●</span> </span>Bước 3:</b><span style="font-weight: 400;"> Nhận kết quả duyệt thông qua tin nhắn SMS hoặc email.</span></p>
+        <p><b><span style="font-weight: 400;"><span style="color: #008044;">●</span> </span>Bước 4:</b><span style="font-weight: 400;"> Giải ngân và nhận tiền vay online chuyển khoản tại nhà.</span></p>
+    </div>
+    <div>
+        <h2>vay tiền online có chấp nhận nợ xấu hay không?</h2>
+        <p>khi bạn bị nợ xấu bạn hoàn toàn có thể vay online mà không gặp bất kỳ trở ngại nào. Tuy nhiên, sẽ có một số đơn vị cho vay không chấp nhận nợ xấu</p>
+        <p><em>Vay tiền online chấp nhận nợ xấu không? – Câu trả lời là có nhưng tùy thuộc vào từng chính sách của công ty</em></p>
+    </div>
+    <div>
+        <h2>Vay tiền online dưới 18 tuổi có được không?</h2>
+        <p>Theo quy định của pháp luật thì chỉ cần bạn đủ từ 15 tuổi thì đã có thể thực hiện vay tiền tại những tổ chức tín dụng. Tuy nhiên, vay được hay không còn phải phụ thuộc vào tổ chức tín dụng đó.
+
+            Các tổ chức tín dụng sẽ dựa vào năng lực tài chính của bạn để xem, bạn có khả năng chi trả cho các khoản nợ của mình. Các tổ chức này hoàn toàn có thể từ chối giải ngân nếu không đáp ứng đầy đủ các yêu cầu bắt buộc.</p>
+            <p><em>Vay tiền online dưới 18 tuổi có được không? – Câu trả lời là tùy theo quy định của mỗi công ty tài chính và tùy thuộc vào hồ sơ của bạn</em></p>
     </div>
 </div>

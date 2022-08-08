@@ -83,7 +83,7 @@ h3 {
 .body-home_head_describe__title {
   font-size: 32px;
   padding: 20px 0;
-  color: #464647; }
+  color: #464646; }
 
 .body-home_head_option {
   list-style: none;
@@ -99,7 +99,7 @@ h3 {
   width: 124px;
   text-align: center;
   cursor: pointer; }
-  .body-home_head_option_item :hover {
+  .body-home_head_option_item:hover {
     color: #009f54;
     text-decoration: underline; }
 
@@ -112,3 +112,92 @@ h3 {
 
 .body-home_head_option__title {
   font-size: 16px; }
+
+.body-home_body_text {
+  margin-top: 20px;
+  text-align: center; }
+
+.loans-option_container {
+  display: flex;
+  flex-wrap: wrap; }
+
+.loan-option {
+  margin: 20px;
+  width: 360px;
+  height: 100%;
+  padding: 18px;
+  box-shadow: 0 0 10px #333;
+  border-radius: 5px; }
+
+.loan-option_overview-logo {
+  width: 130px; }
+
+.loan-option_overview-title {
+  color: #464646;
+  font-weight: 600;
+  padding: 12px 0; }
+
+.loan-option_overview-icon {
+  width: 14px;
+  margin-right: 4px; }
+  .loan-option_overview-icon path {
+    fill: red; }
+
+.loan-option_overview-container {
+  display: flex;
+  color: red;
+  align-items: baseline; }
+
+.loan-option_overview-interest-rate {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 12px 0; }
+
+.loan-option_overview-interest-rate_sub {
+  border-right: 1px solid #333; }
+
+.body-home_loan-option_amount-loan_text {
+  font-size: 18px;
+  color: #464646; }
+
+.body-home_loan-option_amount-loan_number {
+  font-size: 42px;
+  font-weight: 600;
+  color: #008044; }
+
+.body-home_loan-option_amount-loan_container {
+  text-align: center; }
+
+.body-home_loan-option_condition-list {
+  list-style-type: none; }
+
+.body-home_loan-option_condition-item {
+  display: inline-flex;
+  justify-content: flex-start;
+  margin: 6px 0;
+  align-items: flex-start; }
+
+.body-home_loan-option_condition-img {
+  width: 16px; }
+
+.body-home_loan-option_condition-text {
+  margin-left: 6px; }
+
+.loan-option_btn {
+  padding: 8px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #008044;
+  border-radius: 5px;
+  cursor: pointer; }
+  .loan-option_btn:hover {
+    background-color: #009f54; }
+
+.see-more {
+  display: block;
+  padding: 10px 0;
+  color: #008044; }
+  .see-more:hover {
+    text-decoration: revert; }
