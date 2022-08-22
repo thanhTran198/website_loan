@@ -49,7 +49,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     flex: 1;
-    margin-left: 50px;
+    margin-left: 348px;
 }
 
 .header-link__option {
@@ -258,4 +258,43 @@ h3 {
     &:hover {
         text-decoration: revert;
     }
+}
+
+.body-home_question {
+    margin: 20px 0;
+}
+
+.all-loans {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.all-loans_button {
+    color: $color-primary;
+    font-weight: 600;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.loan-question {
+    margin-top: 26px;
+}
+
+.loan-question_title {
+    font-size: 28px;
+}
+
+.body-home_question-title {
+    color: $primary-text;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+// PAGE VAY TÍN CHẤP
+.container-unsecured {
+    width: $width1200;
+    margin: 0 auto;
 }

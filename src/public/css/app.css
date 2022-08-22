@@ -38,7 +38,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   flex: 1;
-  margin-left: 50px; }
+  margin-left: 348px; }
 
 .header-link__option {
   font-size: 16px; }
@@ -83,7 +83,7 @@ h3 {
 .body-home_head_describe__title {
   font-size: 32px;
   padding: 20px 0;
-  color: #464646; }
+  color: #181818; }
 
 .body-home_head_option {
   list-style: none;
@@ -133,7 +133,7 @@ h3 {
   width: 130px; }
 
 .loan-option_overview-title {
-  color: #464646;
+  color: #181818;
   font-weight: 600;
   padding: 12px 0; }
 
@@ -158,7 +158,7 @@ h3 {
 
 .body-home_loan-option_amount-loan_text {
   font-size: 18px;
-  color: #464646; }
+  color: #181818; }
 
 .body-home_loan-option_amount-loan_number {
   font-size: 42px;
@@ -201,3 +201,32 @@ h3 {
   color: #008044; }
   .see-more:hover {
     text-decoration: revert; }
+
+.body-home_question {
+  margin: 20px 0; }
+
+.all-loans {
+  text-align: center;
+  margin: 20px 0; }
+
+.all-loans_button {
+  color: #008044;
+  font-weight: 600; }
+  .all-loans_button:hover {
+    text-decoration: underline; }
+
+.loan-question {
+  margin-top: 26px; }
+
+.loan-question_title {
+  font-size: 28px; }
+
+.body-home_question-title {
+  color: #181818;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 10px 0; }
+
+.container-unsecured {
+  width: 1200px;
+  margin: 0 auto; }
