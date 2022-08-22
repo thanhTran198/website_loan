@@ -295,6 +295,18 @@ h3 {
 
 // PAGE VAY TÍN CHẤP
 .container-unsecured {
+    padding: 30px 0;
     width: $width1200;
     margin: 0 auto;
+}
+
+.container-unsecured_offer-text {
+    margin: 20px 0;
+    color: $primary-text;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-unsecured_offer-note {
+    color: red;
 }

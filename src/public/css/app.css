@@ -228,5 +228,15 @@ h3 {
   margin: 10px 0; }
 
 .container-unsecured {
+  padding: 30px 0;
   width: 1200px;
   margin: 0 auto; }
+
+.container-unsecured_offer-text {
+  margin: 20px 0;
+  color: #181818;
+  font-size: 20px;
+  text-align: center; }
+
+.container-unsecured_offer-note {
+  color: red; }

@@ -9,7 +9,7 @@ router.use('/vaythechap', loanController.mortgage);
 
 router.use('/vaytinchap', loanController.unsecured);
 
-router.use('/camdo', loanController.camdo);
+router.use('/camdo', loanController.pawn);
 
 router.use('/', loanController.home);
 

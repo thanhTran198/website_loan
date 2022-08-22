@@ -21,7 +21,7 @@ class LoanController {
 
     // [GET] loans/camdo
     pawn(req, res, next) {
-        res.send('loans/camdo ----> ok')
+        res.render('../../resources/views/pawn')
     }
 
     // [GET] /home
