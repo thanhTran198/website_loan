@@ -227,7 +227,7 @@ h3 {
   font-size: 22px;
   margin: 10px 0; }
 
-.container-unsecured {
+.container-unsecured, .body-container {
   padding: 30px 0;
   width: 1200px;
   margin: 0 auto; }
@@ -240,3 +240,36 @@ h3 {
 
 .container-unsecured_offer-note {
   color: red; }
+
+.open-card {
+  display: flex;
+  flex-wrap: wrap; }
+
+.loan-option_group {
+  display: flex;
+  justify-content: space-around; }
+
+.loan-option_overview-advantages {
+  margin: 5px 0; }
+
+.card-option_overview-container-logo {
+  width: 100%;
+  max-height: 76px;
+  overflow: hidden;
+  display: flex;
+  align-items: center; }
+
+.card-option_group-btn {
+  padding: 6px 0px;
+  background-color: #008044;
+  border-radius: 5px;
+  min-width: 140px;
+  text-align: center;
+  margin: 0 10px;
+  color: #fff; }
+
+.text-call {
+  margin: 10px 0; }
+
+.btn-sortware {
+  padding: 0 10px; }
